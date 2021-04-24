@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/weatherFragment">
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.example.weather.view.WeatherFragment"
+        android:label="@string/weatherFragmentLabel"
+        tools:layout="@layout/fragment_weather">
+        <action
+            android:id="@+id/action_WeatherFragment_to_MultiCityFragment"
+            app:destination="@id/multiCityFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/multiCityFragment"
+        android:name="com.example.weather.view.MultiCityFragment"
+        android:label="@string/multiCityFragmentLabel"
+        tools:layout="@layout/fragment_multi_city">
+        <action
+            android:id="@+id/action_multiCityFragment_to_cityFragment"
+            app:destination="@id/cityFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cityFragment"
+        android:name="com.example.weather.view.CityFragment"
+        android:label="fragment_city"
+        tools:layout="@layout/fragment_city" >
+        <argument
+            android:name="icon"
+            app:argType="string" />
+        <argument
+            android:name="cityName"
+            app:argType="string" />
+        <argument
+            android:name="temp"
+            app:argType="float" />
+        <argument
+            android:name="tempMin"
+            app:argType="float" />
+        <argument android:name="tempMax"
+            app:argType="float" />
+        <argument
+            android:name="description"
+            app:argType="string" />
+    </fragment>
+</navigation>

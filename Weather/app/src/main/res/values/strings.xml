@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="weatherFragmentLabel">Weather Fragment</string>
+    <string name="multiCityFragmentLabel">Multi City Fragment</string>
+    <string name="cityFragmentLabel">City Fragment</string>
+    <string name="currentCities">Current Cities</string>
+    <string name="actionList">Show city list</string>
+    <string name="actionRefresh">Refresh</string>
+    <string name="actionChangeUnits">Change units</string>
+    <string name="actionRestore">Restore</string>
+    <string name="actionSearchCities">Search cities</string>
+    <string name="temperatureIcon">temperatureIcon</string>
+    <string name="minMaxTemperature">min %1$.2f\u00B0 - max %2$.2f\u00B0</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="alert">Alert</string>
+    <string name="deleteCityTitle">Delete City</string>
+    <string name="deleteCityMessage">Are you sure you want to delete the city?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="main">Main</string>
+    <string name="hourly">Hourly</string>
+    <string name="details">Details</string>
+    <string name="sunriseSunset">Sunrise &amp; sunset</string>
+    <string name="feelsLike">Feels: %1$.2f\u00B0</string>
+    <string name="windSpeed">Wind speed: %1.2f km/h</string>
+    <string name="cloudiness">Cloudiness: %1$s</string>
+    <string name="humidity">Humidity: %1$d%%</string>
+    <string name="pressure">Pressure: %1$d hpa</string>
+    <string name="visibility">Visibility: %1$d m</string>
+    <string name="search">Search…</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+</resources>

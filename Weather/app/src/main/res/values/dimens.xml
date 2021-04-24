@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="cardHeight">240dp</dimen>
+    <dimen name="listCardHeight">160dp</dimen>
+    <dimen name="tempImageSize">70dp</dimen>
+    <dimen name="hourlyWeatherItemWidth">120dp</dimen>
+    <dimen name="sunriseSunsetViewTextSize">12sp</dimen>
+</resources>

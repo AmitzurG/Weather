@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/weatherSearchView"
+        android:title="@string/actionSearchCities" android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+    <item
+        android:id="@+id/actionRefresh"
+        android:title="@string/actionRefresh" android:icon="@drawable/ic_baseline_refresh_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionToggleUnits"
+        android:title="@string/actionChangeUnits" android:icon="@drawable/ic_baseline_toggle_w_units_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/actionRestore"
+        android:title="@string/actionRestore" android:icon="@drawable/ic_baseline_restore_24"
+        app:showAsAction="ifRoom" />
+
+</menu>
